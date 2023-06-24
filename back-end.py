@@ -184,7 +184,7 @@ def affichage_and_back_end():
 
         if game_over:  # Display game over message
             font = pygame.font.Font(None, 36)
-            text = font.render("Game Over!", True, (255, 0, 0))
+            text = font.render("Game Over! Press 'ESC' to exit", True, (255, 0, 0))
             text_rect = text.get_rect(center=(nb_case * taille_case // 2, nb_case * taille_case // 2))
             screen.blit(text, text_rect)
         else:
