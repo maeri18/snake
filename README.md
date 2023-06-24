@@ -19,7 +19,9 @@ To play the Snake Game locally, follow these steps:
    `git clone https://github.com/maeri18/snake.git`
 2. Open the project directory:
    `cd snake`
-3. Launch the game by opening the `index.html` file in your preferred web browser.
+   `pip install numpy`
+   `pip install opencv-python`
+4. Launch the game by opening the `index.html` file in your preferred web browser.
 
 That's it! You are now ready to play the Snake Game on your computer.
 
