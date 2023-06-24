@@ -187,6 +187,7 @@ def affichage_and_back_end():
         if eaten == False:
             pygame.draw.circle(screen, fr.couleur, (x1, y1), taille_case / 2)  # On multiplie pour l'echelle
         pygame.display.flip()
+        pygame.time.delay(4) # Increase this value to slow down the snake
     pygame.quit()
 
 
